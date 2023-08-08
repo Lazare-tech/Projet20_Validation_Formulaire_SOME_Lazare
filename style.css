@@ -1,0 +1,244 @@
+@media (max-width:809px){
+   
+ 
+}
+@media (max-width:766px){
+    .rad{
+        position: relative;
+      
+        position: sticky;
+        left: -128px;
+        top:920px;
+        align-self:flex-start !important;
+        
+    }
+}
+@media (max-width:767px){
+    .form-group{
+        display: flex !important;
+        flex-direction: column !important;
+        /* background: red !important; */
+    }
+    .btn{
+        background: #e9e0cf !important;
+        width: 2rem;
+        position: relative !important;
+        width: 2rem;
+        left: 130px !important;
+        width: 7rem;
+        ;
+    
+    }
+    .form_ligne{
+        display: flex !important;
+        flex-direction: column;
+    }
+}
+@media (max-width:320px){
+    .pl{
+        font-size: 0.4rem !important;
+    }
+    h2{
+        font-family: "Muli-SemiBold";
+        font-size: 15px !important;
+        color: #453e79;
+        text-transform: uppercase;
+        letter-spacing: 7px;
+        padding: 5px 15px;
+        display: inline-block;
+        border: 1px solid #dad8e4;
+    }
+}
+/* }
+@media (max-width:4){
+    
+} */
+body{
+    background-color: #f9f6f1;
+
+}
+
+.row{
+    padding-top: 7rem;
+    /* padding-left: -11rem;
+    padding-right: -11rem; */
+
+}
+.form-row{
+    /* padding-left: 3rem; */
+    
+}
+h1{
+    display: inline-block;
+    border: 1px solid #dad8e4;
+    padding: 9px;
+
+}
+.form-group{
+    display: flex;
+}
+.cercle{
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    background-color:#e9e0cf;
+    
+}
+#cercle{
+    display: flex;
+    position: absolute;
+    left: 519px;
+}
+.bouton{
+    width: 115px;
+    height: 39px;
+    background-color: #e9e0cf;
+  text-decoration: none;  
+  
+}
+
+
+/* formparty */
+
+.form_ > h1,h5{
+    text-align: center;
+}
+
+.choice{
+    display: inline-block;
+}
+.form_ligne{
+    display: flex;
+    margin-bottom: 18px;
+}
+.rad{
+    align-self: flex-end;
+    display: flex;
+    padding-left: 25px;
+}
+input{
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-bottom: 2px solid #e6e6e6;
+   
+}
+.form-control{
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-bottom: 2px solid #e6e6e6;
+   
+}
+.form-control:focus {
+    color: var(--bs-body-color);
+    /* background-color: var(--bs-body-bg); */
+    outline: 0;
+    box-shadow: 0 0 0 0;
+  
+}
+.btn{
+    background: #e9e0cf;
+    position: relative;
+    left: 217px;
+}
+input::placeholder{
+    color: #ececec;
+}
+:focus{
+    outline: none;
+}
+.bouton{
+    position: relative;
+}
+h5{
+    color: #6d7f52;
+}
+h2{
+    font-family: "Muli-SemiBold";
+font-size: 22px;
+color: #453e79;
+text-transform: uppercase;
+letter-spacing: 7px;
+padding: 5px 15px;
+display: inline-block;
+border: 1px solid #dad8e4;
+/* margin-bottom: 75px; */
+}
+/* trois points [arties */
+ul{
+    display: flex;
+    justify-content: center;
+
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #6d7f52;
+}
+.wizard-2 ,.wizard-3{
+    display: none;
+
+}
+.form-row_show{
+    transition: 10s;
+}
+.form_two,.form_three{
+    display: none;
+}
+.form-check-input{
+    border-radius: 50%;
+}
+.forward{
+    display:flex;
+    flex-direction: row;
+    
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    text-align: center;
+    
+    
+  }
+  
+  .flex-item-left {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin: 5px;
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 50%;
+    margin: 5px;
+
+
+  }
+  .flex-item-left_b {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin: 5px;
+    flex: 50%;
+  }
+  
+  .flex-item-right_s {
+    background-color: green;
+    padding: 10px;
+    flex: 50%;
+    margin: 5px;
+
+
+  }
+  .backward1,.forward2,.forward,.backward2,.submit{
+      color: black;
+  }
+  .c2,.c3{
+      color:gainsboro;
+  }
