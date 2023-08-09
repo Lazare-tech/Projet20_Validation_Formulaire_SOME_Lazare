@@ -109,7 +109,7 @@ document.getElementById("suivant11").addEventListener("click",
             left_age.style.display = "block";
             
             
-        }else if(Number.isInteger(Number(age))){
+        }else if(age !=/^\d+$/){
             left_age.innerHTML = "<span style='color:red;'>Veuillez saisir un chifre!</span>";
 
             left_age.style.display = "block";
