@@ -65,106 +65,61 @@
                     <div class="form_one">
                         <div class="form-group col-md-6">
                             <label for="firstName" class="form-label"></label>
-                            <input type="text" class="form-control col-lg-12 col-md-6" id="firstName"
-                                placeholder="First Name" autocomplete>
-
+                            <input type="text" class="form-control col-lg-12 col-md-6 in1" id="firstName" placeholder="First Name"  autocomplete>
                             <label for="lastName" class="form-label"></label>
-                            <input type="text" class="form-control col-lg-12 col-md-6" id="lastName"
-                                placeholder="Last Name">
+                            <input type="text" class="form-control col-lg-12 col-md-6 in2" id="lastName" placeholder="Last Name" required>
+                        </div>
+                        <div class="flex-container">
+                            <div class="flex-item-left_v text-muted"></div>
+                            <div class="flex-item-right_v text-muted"></div>
                         </div>
                         <div class="form-group col-md-6">
                             <label for="email" class="form-label"></label>
-                            <input type="password" class="form-control col-lg-12 col-md-6" id="email"
-                                placeholder="Your Email">
+                            <input type="email" class="form-control col-lg-12 col-md-6 ine" id="email"   placeholder="Your Email">
                             <!-- email -->
                             <label for="password" class="form-label"></label>
-                            <input type="text" class="form-control col-lg-12 col-md-6" id="PhoneNumber"
-                                placeholder="Phone Number">
+                            <input type="text" class="form-control col-lg-12 col-md-6 inp" id="PhoneNumber"    placeholder="Phone Number">
 
+                        </div>
+                        <div class="flex-container">
+                            <div class="flex-item-left_email text-muted"></div>
+                            <div class="flex-item-right_phone text-muted"></div>
                         </div>
                         <div class="form_ligne">
                             <div class="form-group col-md-6 ">
                                 <label for="Age" class="form-label"></label>
-                                <input type="text" class="form-control col-lg-12 col-md-6 " id="Age" placeholder="Age">
+                                <input type="text" class="form-control col-lg-12 col-md-6 ina " id="Age" placeholder="Age">
                                 <!-- male female -->
-
-
                             </div>
+                            
                             <div class="check rad col-md-6">
                                 <input type="radio" name="genre" value="male" checked=""> Male
                                 <input type="radio" name="genre" value="female">Female
 
                             </div>
                         </div>
-                        <div class="form-group col-md-6">
-                            <input type="text" class="form-control col-lg-12 col-md-6 dropdown-toggle" id="Age"
-                                placeholder="Your country" data-bs-toggle="dropdown" aria-expanded="false">
-
-
-                            <ul class="dropdown-menu">
-                                <li>United States</li>
-                                <li>United Kingdom</li>
-                                <li>Viet Nam</li>
-                            </ul>
-                        </div>                       
-                        <div class="row p-1 ">
-                            <div class="col-lg-4 col-md-12 col-ms-12 col-xs-12"></div>
-
-                            <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 text-left btn btn-secondary " id="suivant11">Forward<i class="fas fa-arrow-right"></i></div>
-                          </div>
-                    </div>
-                    <div class="form_two">
-                        <div class="form-group col-md-12">
-                            <label for="firstName" class="form-label"></label>
-                            <input type="text" class="form-control col-lg-12 col-md-6" id="firstName"
-                                placeholder="First Name" autocomplete>
-
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label for="city" class="form-label"></label>
-                            <input type="text" class="form-control col-lg-12 col-md-6" id="city" placeholder="City"
-                                autocomplete>
-
-                            <label for="zipcode" class=" form-label"></label>
-                            <input type="text" class="form-control col-lg-12 col-md-6" id="zipcode"
-                                placeholder="Zip Code">
-                        </div>
-                        <div class="form-group col-md-6">
-                            <input type="text" class="form-control col-lg-12 col-md-6 dropdown-toggle" id="Age"
-                                placeholder="Your country" data-bs-toggle="dropdown" aria-expanded="false">
-
-
-                            <ul class="dropdown-menu">
-                                <li>United States</li>
-                                <li>United Kingdom</li>
-                                <li>Viet Nam</li>
-                            </ul>
-                        </div>
-                       
                         <div class="flex-container">
-                            <div class="flex-item-left " id="backward1" ><i class="fas fa-arrow-left"></i>Backward</div>
-                            <div class="flex-item-right " id="forward2">Forward<i class="fas fa-arrow-right"></i></div>
+                            <div class="flex-item-left_age text-muted"></div>
+                        </div>
+                        <div class="form-group col-md-8">
+
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected id="selected">Your country</option>
+                                <option value="United States">United States</option>
+                                <option value="United Kinfdom">United Kingdom</option>
+                                <option value="Biet Nam">Viet Nam</option>
+                              </select>
+                        </div> 
+                        <div class="flex-container row p-3">
+                            <div class="flex-item-left_select"></div>
+                          </div>               
+                       
+                          <div class="flex-container row p-3">
+                            <div class="flex-item-left_form_1"></div>
+                            <div class="flex-item-right_form_1" id="suivant11" type="submit">Forward<i class="fas fa-arrow-right"></i></div>
                           </div>
                     </div>
-                    <div class="form_three">
-
-                        <div class="form-group">
-                            <label for="bio"></label>
-                            <textarea class="form-control" id="bio" rows="3"
-                                placeholder="Your message here!"></textarea>
-                           
-                        </div>
-                        <div class="form-check p-5">
-                            <input class="form-check-input" type="checkbox" value="" id="cgu" required checked>
-                            <label class="form-check-label pl" for="cgu">Please accept terms and conditions ?</label>
-
-                        </div>
-                        
-                        <div class="flex-container p-1">
-                            <div class="flex-item-left_b" id="backward2"><i class="fas fa-arrow-left"></i>Backward</div>
-                            <div class="flex-item-right_s submit">Submit<i class="fas fa-check"></i></div>
-                          </div>
-                    </div>
+                  
                 </div>
         </form>
     </div>

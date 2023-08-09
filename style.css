@@ -221,21 +221,93 @@ a{
 
 
   }
-  .flex-item-left_b {
+  .flex-item-left_form1 {
     background-color: #f1f1f1;
+    
     padding: 10px;
     margin: 5px;
     flex: 50%;
   }
   
-  .flex-item-right_s {
-    background-color: green;
+  .flex-item-right_form1 {
+    background-color: dodgerblue;
     padding: 10px;
     flex: 50%;
     margin: 5px;
 
 
   }
+  .flex-item-left_form1 {
+    background-color: #f1f1f1;
+    
+    padding: 10px;
+    margin: 5px;
+    flex: 50%;
+  }
+  
+  .flex-item-right_form1 {
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 50%;
+    margin: 5px;
+
+
+  }
+  .flex-item-left_v {
+    padding: 10px;
+    margin: 1px;
+    flex: 50%;
+    display: none;
+  }
+  
+  .flex-item-right_v {
+
+    padding: 10px;
+    flex: 50%;
+    margin: 1px;
+    display: none;
+  }
+  
+  .flex-item-left_email {
+    padding: 10px;
+    margin: 1px;
+    flex: 50%;
+    display: none;
+  }
+  
+  .flex-item-right_phone {
+
+    padding: 10px;
+    flex: 50%;
+    margin: 1px;
+    display: none;
+  }
+  .flex-item-left_age {
+    padding: 10px;
+    margin: 1px;
+    flex: 50%;
+    display: none;
+  }
+  
+  .flex-item-right_s {
+
+    padding: 10px;
+    flex: 50%;
+    margin: 1px;
+    display: none;
+  }
+  
+  .flex-item-left_select {
+
+    padding: 10px;
+    flex: 50%;
+    margin: 1px;
+    display: none;
+  }
+  .flex-container_v{
+      display: none;
+  }
+  
   .backward1,.forward2,.forward,.backward2,.submit{
       color: black;
   }
