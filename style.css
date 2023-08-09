@@ -64,10 +64,7 @@ body{
     padding-right: -11rem; */
 
 }
-.form-row{
-    /* padding-left: 3rem; */
-    
-}
+
 h1{
     display: inline-block;
     border: 1px solid #dad8e4;
@@ -314,3 +311,7 @@ a{
   .c2,.c3{
       color:gainsboro;
   }
+.formulaire{
+    /* position: absolute;
+    top:-39px; */
+}
