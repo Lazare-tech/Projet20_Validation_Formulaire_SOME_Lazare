@@ -204,14 +204,12 @@ a{
   }
   
   .flex-item-left {
-    background-color: #f1f1f1;
     padding: 10px;
     margin: 5px;
     flex: 50%;
   }
   
   .flex-item-right {
-    background-color: dodgerblue;
     padding: 10px;
     flex: 50%;
     margin: 5px;
@@ -313,5 +311,56 @@ a{
   }
 .formulaire{
     /* position: absolute;
-    top:-39px; */
+    left: 5%;
+    right: 5%;
+    top:15%;   
+    bottom: 5%;   ; */
+}
+.error{
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    
+}
+.error_{
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    
+}
+.error_email{
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    
+}
+.error_phone{
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    
+}
+.error_age{
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    
+}
+.error_firstname{
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    
+}
+.error_lastname{
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    
+}
+.error_selec{
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    
 }
